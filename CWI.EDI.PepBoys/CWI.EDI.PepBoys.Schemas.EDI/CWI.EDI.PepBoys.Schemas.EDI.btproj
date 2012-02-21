@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>9.0.21107</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>f13d87f1-5dca-49f4-bbe6-64c12c418cbc</ProjectGuid>
+    <ProjectGuid>{465099B7-919B-4610-844E-DC6D0C89B013}</ProjectGuid>
     <ProjectTypeGuids>{EF7E3281-CD33-11D4-8326-00C04FA0CE8D};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>library</OutputType>
     <GenericProcessing>true</GenericProcessing>
@@ -61,6 +61,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Schema Include="X12_850.xsd">
+      <TypeName>EDI850</TypeName>
+      <Namespace>CWI.EDI.PepBoys.Schemas.EDI</Namespace>
+    </Schema>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="samples\850.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\BizTalk\BizTalkC.targets" />
