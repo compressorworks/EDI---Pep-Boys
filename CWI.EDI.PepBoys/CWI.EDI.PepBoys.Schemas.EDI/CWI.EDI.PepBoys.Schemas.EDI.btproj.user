@@ -7,7 +7,7 @@
     <VisualStudio>
       <FlavorProperties GUID="{EF7E3281-CD33-11D4-8326-00C04FA0CE8D}">
         <Files>
-		<File Path="X12_850.xsd">
+		<File Path="X12_00403_850.xsd">
 			<ValidateTestMapInput>True</ValidateTestMapInput>
 			<ValidateTestMapOutput>True</ValidateTestMapOutput>
 			<TestMapInputInstanceFilename></TestMapInputInstanceFilename>
@@ -15,11 +15,11 @@
 			<TestMapSourceType>0</TestMapSourceType>
 			<TestMapTargetType>0</TestMapTargetType>
 			<EditorOutputInstanceFilename></EditorOutputInstanceFilename>
-			<EditorInputInstanceFilename>C:\repo\CWI.EDI\CWI.EDI.PepBoys\CWI.EDI.PepBoys.Schemas.EDI\samples\850.xml</EditorInputInstanceFilename>
+			<EditorInputInstanceFilename>C:\repo\CWI.EDI\CWI.EDI.PepBoys\CWI.EDI.PepBoys.Schemas.EDI\samples\850.edi</EditorInputInstanceFilename>
 			<GenerateInstanceOutputType>0</GenerateInstanceOutputType>
-			<ValidateInstanceInputType>0</ValidateInstanceInputType>
+			<ValidateInstanceInputType>1</ValidateInstanceInputType>
 			<PropertySchemaFileName>PropertySchema.xsd</PropertySchemaFileName>
-			<AutoRefreshSchema>1</AutoRefreshSchema>
+			<AutoRefreshSchema>0</AutoRefreshSchema>
 		</File>
 	</Files>
       </FlavorProperties>

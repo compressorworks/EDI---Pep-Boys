@@ -1,4 +1,4 @@
-<edi:X12_00403_850 xmlns:edi="http://schemas.compressorworks.com/edi">
+<edi:X12_00403_850 xmlns:edi="http://schemas.cwi.com/edi/pep_boys">
 	<ST>
 		<ST01>850</ST01>
 		<ST02>1000</ST02>
